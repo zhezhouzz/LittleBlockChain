@@ -1,0 +1,12 @@
+(library
+ (name type)
+ (wrapped true)
+ (modules_without_implementation block)
+ (libraries core utils printbox printbox-text)
+ (modules
+   block
+   layout
+   test
+ )
+ (preprocess (pps ppx_optcomp ppx_compare ppx_sexp_conv))
+)

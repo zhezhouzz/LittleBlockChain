@@ -1,0 +1,8 @@
+(library
+ (name utils)
+ (wrapped false)
+ (modules
+   dt
+ )
+ (libraries core)
+)
